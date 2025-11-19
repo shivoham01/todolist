@@ -15,7 +15,7 @@ const getTodos = () => {
     updateDisplay();
     let tasks = document.querySelector(".tasks");
     if (!localStorage.getItem("todos")) {
-        localStorage.setItem("todods", "[]");
+        localStorage.setItem("todos", "[]");
     }
     let todos = localStorage.getItem("todos");
     let todolist = JSON.parse(todos);
@@ -107,4 +107,5 @@ const activeTodos = () => {
                     <div class="meta"><button class="remove" onclick="removeTodo(${todo.id})" title="Remove">✕</button></div>
                 </li>`: ""
     })
+
 }
