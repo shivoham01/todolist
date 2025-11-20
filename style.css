@@ -149,7 +149,7 @@
      width: 20px;
      height: 20px;
      border-radius: 6px;
-     border: 1px solid gray;
+     border: 1px solid white;
      background: transparent;
      display: inline-grid;
      place-items: center;
@@ -247,3 +247,4 @@
      }
 
  }
+
